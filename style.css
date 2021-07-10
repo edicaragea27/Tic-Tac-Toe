@@ -1,0 +1,24 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 620px;
+    height: 620px;
+    background-color: black;
+  }
+  
+  .container div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 3px;
+  }
+  
+  .playerX {
+    background-image: url('X.png')
+  }
+  
+  .playerO {
+    background-image: url('circle.png')
+  }
